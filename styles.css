@@ -83,7 +83,7 @@ h3 {
 
 .source {
   position: absolute;
-  bottom: 1rem;
+  bottom: 0;
   color: white;
   font-size: 0.8rem;
 }
@@ -101,5 +101,8 @@ h3 {
 @media (orientation: portrait) {
   .joke {
     font-size: 1.5rem;
+  }
+  h3 {
+    margin: 2rem;
   }
 }
